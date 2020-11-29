@@ -7,3 +7,5 @@ git add {archivo} // comando para adjuntar un archivo al area temporal stagin
 git add . // comando para adjuntar varios archivos
 git commit -m "comentario" //Comando para enviar el cambio al repositorio .git -m para agregar comentario
 git log {archivo} //Comando para revisar las versiones del archivo
+git show // muestra los cambios que han existido sobre un archivo
+git diff {sha commit1} {sha commit2} //Comando para validar la diferencia en tre versiones
