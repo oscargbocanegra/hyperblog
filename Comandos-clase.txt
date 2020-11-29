@@ -1,0 +1,9 @@
+git init // comando para iniciar un proyecto
+git config--list // Comando para validar la configuracion del entorno
+git config --global user.name "Nombre" // Comando para configurar el nombre del usuario 
+git config --global user.mail "correo@electronico" // Comando para configurar el correo electronico
+git status // Comando para revisar los cambios en los archivos
+git add {archivo} // comando para adjuntar un archivo al area temporal stagin
+git add . // comando para adjuntar varios archivos
+git commit -m "comentario" //Comando para enviar el cambio al repositorio .git -m para agregar comentario
+git log {archivo} //Comando para revisar las versiones del archivo
