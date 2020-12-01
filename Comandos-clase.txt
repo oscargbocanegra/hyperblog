@@ -9,3 +9,7 @@ git commit -m "comentario" //Comando para enviar el cambio al repositorio .git -
 git log {archivo} //Comando para revisar las versiones del archivo
 git show // muestra los cambios que han existido sobre un archivo
 git diff {sha commit1} {sha commit2} //Comando para validar la diferencia en tre versiones
+
+
+Clase 12
+git reset {sha commit2} --hard // regresa al estado seleccionado en el sha sin retorno 
