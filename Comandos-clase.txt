@@ -36,4 +36,6 @@ git pull / comando que une las funcioes de (fetch y merge) clona el repositorio 
 clase 15.
 Ramas / Permiten hacer cambios sin afectar los flujos de cambio.
 master / rama princiapal normalnete es produccion.
-  
+git status / comando para ver donde estamos ubicados.
+git branch {nombre rama} // comando para crecar una rama   
+git checkout (nombre ramma) // comando que permite movernos entre ramas creadas.
