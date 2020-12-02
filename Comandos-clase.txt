@@ -13,3 +13,6 @@ git diff {sha commit1} {sha commit2} //Comando para validar la diferencia en tre
 
 Clase 12
 git reset {sha commit2} --hard // regresa al estado seleccionado en el sha sin retorno 
+git log --stat // visualiza los cambios realizados en cada comit desde la opcion de log.
+git checkout {sha commit} {nombre archivo} // comando para regresar en la linea de tiempo a la version del archivo.
+git checkout {master} {nombre archivo} // comando para devolver el cambio anterior a la version ultima master
