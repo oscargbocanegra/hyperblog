@@ -39,3 +39,7 @@ master / rama princiapal normalnete es produccion.
 git status / comando para ver donde estamos ubicados.
 git branch {nombre rama} // comando para crecar una rama   
 git checkout (nombre ramma) // comando que permite movernos entre ramas creadas.
+
+Clae 16
+git branch / comando para validar la cantidad de ramas que podemos tener.
+git merge {rama} / comando para fusionar las ramas, nos ubicamos en la rama que debe contener el cambio e invocamos la rama que tiene los nuevos cambios.
