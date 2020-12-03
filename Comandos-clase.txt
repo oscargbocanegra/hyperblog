@@ -10,7 +10,6 @@ git log {archivo} //Comando para revisar las versiones del archivo
 git show // muestra los cambios que han existido sobre un archivo
 git diff {sha commit1} {sha commit2} //Comando para validar la diferencia en tre versiones
 
-
 Clase 12
 git reset {sha commit2} --hard // regresa al estado seleccionado en el sha sin retorno 
 git log --stat // visualiza los cambios realizados en cada comit desde la opcion de log.
@@ -43,3 +42,10 @@ git checkout (nombre ramma) // comando que permite movernos entre ramas creadas.
 Clae 16
 git branch / comando para validar la cantidad de ramas que podemos tener.
 git merge {rama} / comando para fusionar las ramas, nos ubicamos en la rama que debe contener el cambio e invocamos la rama que tiene los nuevos cambios.
+
+Clase 20 
+git config -l // comando que nos permite ver como esta configurado git.
+ssh-keygen -t rsa -b 4096 -C "oscargiovanni@gmail.com" // Comando para crear una llave publica y privada.  
+eval $(ssh-agent -s) // comando para identificar que esta corriendo el servidor de ssh.
+ssh-add ruta-donde-guardaste-tu-llave-privada // comando para añadir la llave privada al servidor ssh.
+git remote set-url origin url-ssh-del-repositorio-en-github // Comando para actualizar la URL que guardamos en nuestro repositorio remoto, ahora usamos la URL con SSH:
