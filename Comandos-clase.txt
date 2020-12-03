@@ -49,3 +49,14 @@ ssh-keygen -t rsa -b 4096 -C "oscargiovanni@gmail.com" // Comando para crear una
 eval $(ssh-agent -s) // comando para identificar que esta corriendo el servidor de ssh.
 ssh-add ruta-donde-guardaste-tu-llave-privada // comando para añadir la llave privada al servidor ssh.
 git remote set-url origin url-ssh-del-repositorio-en-github // Comando para actualizar la URL que guardamos en nuestro repositorio remoto, ahora usamos la URL con SSH:
+
+clase 22
+git log --all --graph --decorate --oneline // comando para mostrar la historia del proyecto comprimida.
+alias {noombre asignado}  "git log --all --graph --decorate --oneline" // comando para crear un alias que contiene todo un comando.
+git tag -a nombre-del-tag id-del-commit. // Crear un nuevo tag y asignarlo a un commit
+git tag -d nombre-del-tag. // Borrar un tag en el repositorio local
+git tag o git show-ref --tags. // Listar los tags de nuestro repositorio local
+git push origin --tags. // Publicar un tag en el repositorio remoto
+ git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag. // Borrar un tag del repositorio remoto
+
+
