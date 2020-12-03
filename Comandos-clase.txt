@@ -53,7 +53,7 @@ git remote set-url origin url-ssh-del-repositorio-en-github // Comando para actu
 clase 22
 git log --all --graph --decorate --oneline // comando para mostrar la historia del proyecto comprimida.
 alias {noombre asignado}  "git log --all --graph --decorate --oneline" // comando para crear un alias que contiene todo un comando.
-git tag -a nombre-del-tag id-del-commit. // Crear un nuevo tag y asignarlo a un commit
+git tag -a -m "" nombre-del-tag id-del-commit. // Crear un nuevo tag y asignarlo a un commit
 git tag -d nombre-del-tag. // Borrar un tag en el repositorio local
 git tag o git show-ref --tags. // Listar los tags de nuestro repositorio local
 git push origin --tags. // Publicar un tag en el repositorio remoto
