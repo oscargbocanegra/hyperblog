@@ -59,4 +59,10 @@ git tag o git show-ref --tags. // Listar los tags de nuestro repositorio local
 git push origin --tags. // Publicar un tag en el repositorio remoto
  git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag. // Borrar un tag del repositorio remoto
 
+Clase 28
+
+git remote add <nombre_del_remoto> <url_del_remoto> // Comando para adicionar nuevo repositorio remoto.
+git remote upstream https://github.com/freddier/hyperblog // Ejemplo comando anterior.
+git pull <remoto> <rama> // Comando para hacer pull a una rama especifica.
+git pull upstream master // Ejemplo de comando anterior.
 
