@@ -66,3 +66,45 @@ git remote upstream https://github.com/freddier/hyperblog // Ejemplo comando ant
 git pull <remoto> <rama> // Comando para hacer pull a una rama especifica.
 git pull upstream master // Ejemplo de comando anterior.
 
+Clase 35 
+
+Git stash // Comando para guardar en un stagin temporal.
+Git stash list // comando para revisar los estados temporales guardados.
+Git stash pop // comando para retomar el cambio en la rama.
+git stash branch {rama} // comando para asignar a una rama 
+
+Clase 36
+
+git clean --dry-run // simula la eliminacion de archivos.
+git clean -f // comando para limpiar el proyecto.
+
+clase 37
+
+git cherry-pick {hash} // comando para importan un comint antiguo de otra rama.
+
+clase 38.
+git commit --amend //comando para agregar lso cambios al comit anterior.
+
+clase 39.
+git refloj // comando para mirar TODO el historial.
+git reset  --SOFT // comando que resetea cambios anteriores. 
+git reset  --HARD // comando que resetea cambios anteriores.
+
+clase 40.
+
+git grep {palabra} // comando para buscar palabras
+git grep -n {palabra} // comando para buscar la palabra e identificar la linea.
+git grep -c {palabra} // comando para contar las palabras usadas.
+git log -S {palabra} // coamndo para buscar palabras en los commits.
+
+clase 41.
+
+git shortlog -sn // muestra cuantos commit han hecho cada miembros del equipo.
+git shortlog -sn --all // muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+git shortlog -sn --all --no-merge // muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+git blame ARCHIVO // muestra quien hizo cada cosa linea por linea
+git COMANDO --help // muestra como funciona el comando.
+git blame ARCHIVO -Llinea_inicial,linea_final // muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
+**git branch -r **// se muestran todas las ramas remotas
+git branch -a // se muestran todas las ramas tanto locales como remotas
+
